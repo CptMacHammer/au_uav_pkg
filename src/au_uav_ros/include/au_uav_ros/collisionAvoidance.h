@@ -22,7 +22,7 @@ namespace au_uav_ros {
 	private:
 		
 	public:
-		// collision avoidance call for R Inverse Proportional Navigation Algorithm
+		// collision avoidance call for Reverese Inverse Proportional Navigation Algorithm
 		virtual void ripnaAvoid(int id, 
 				std::map<int, au_uav_ros::PlaneObject> planes, 
 				std::map<int, au_uav_ros::SimPlaneObject> simPlanes,
